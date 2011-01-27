@@ -36,6 +36,8 @@ describe Trip do
       it "should not be valid without a hotel" do
         @trip.errors.full_messages.should include("Hotel can't be blank")
       end
+      
+      
     end
   end
 end

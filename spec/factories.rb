@@ -10,4 +10,5 @@ end
 Factory.define :trip do |f|
   f.sequence(:name) {|n| "trip #{n}"}
   f.association :hotel, :factory => :hotel
+  tripdate = Date.new(2011, 1, 26)
 end
